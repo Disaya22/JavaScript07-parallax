@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+
+.parallax{
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    /* background-image: url('Sky.png'); */
+    background-color: rgba(109, 143, 133, 0.681);
+
+    
+
+}
+
+.moon{
+    position: absolute;
+    left:50;
+    top: 40%;
+
+    background: #F5D059;
+    box-shadow: inset -15px 0px #EDC541;
+    border-radius: 100px;
+
+    width: 130px;
+    height: 130px;
+}
+
+.mountain{
+    width: 100vw;
+    height: 160vh;
+    z-index: 10;
+
+    background: url('./Mountain.png') bottom / contain no-repeat;
+    
+}
+
+h1{
+    position: absolute;
+    top: 70%;
+
+    color: #333;
+    font-size: 3.8vw;
+    text-shadow: 3px 3px #f3f090;
+    text-transform: uppercase; 
+}
